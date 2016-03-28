@@ -34,7 +34,7 @@ Main : Priority: 10
 
 Main : Old State: NEW
 
-Main : New State: BLOCKED
+Main : New State: RUNNABLE
 
 Main : ************************************ 
 
@@ -54,7 +54,7 @@ Main : Priority: 10
 
 Main : Old State: NEW
 
-Main : New State: BLOCKED
+Main : New State: TERMINATED
 
 Main : ************************************ 
 
@@ -84,7 +84,7 @@ Main : Priority: 1
 
 Main : Old State: NEW
 
-Main : New State: BLOCKED
+Main : New State: RUNNABLE
 
 Main : ************************************ 
 
@@ -94,7 +94,7 @@ Main : Priority: 10
 
 Main : Old State: NEW
 
-Main : New State: TERMINATED
+Main : New State: BLOCKED
 
 Main : ************************************ 
 
@@ -104,26 +104,6 @@ Main : Priority: 1
 
 Main : Old State: NEW
 
-Main : New State: BLOCKED
-
-Main : ************************************ 
-
-Main : Id 10 - Thread 2
-
-Main : Priority: 10
-
-Main : Old State: BLOCKED
-
-Main : New State: RUNNABLE
-
-Main : ************************************ 
-
-Main : Id 12 - Thread 4
-
-Main : Priority: 10
-
-Main : Old State: BLOCKED
-
 Main : New State: TERMINATED
 
 Main : ************************************ 
@@ -135,36 +115,6 @@ Main : Priority: 10
 Main : Old State: RUNNABLE
 
 Main : New State: TERMINATED
-
-Main : ************************************ 
-
-Main : Id 17 - Thread 9
-
-Main : Priority: 1
-
-Main : Old State: BLOCKED
-
-Main : New State: RUNNABLE
-
-Main : ************************************ 
-
-Main : Id 17 - Thread 9
-
-Main : Priority: 1
-
-Main : Old State: RUNNABLE
-
-Main : New State: TERMINATED
-
-Main : ************************************ 
-
-Main : Id 15 - Thread 7
-
-Main : Priority: 1
-
-Main : Old State: BLOCKED
-
-Main : New State: RUNNABLE
 
 Main : ************************************ 
 
@@ -228,7 +178,7 @@ Main : New State: RUNNABLE
 
 Main : ************************************ 
 
-Main : Id 8 - Thread 0
+Main : Id 16 - Thread 8
 
 Main : Priority: 10
 
@@ -248,11 +198,21 @@ Main : New State: BLOCKED
 
 Main : ************************************ 
 
-Main : Id 8 - Thread 0
+Main : Id 16 - Thread 8
 
 Main : Priority: 10
 
 Main : Old State: RUNNABLE
+
+Main : New State: TERMINATED
+
+Main : ************************************ 
+
+Main : Id 8 - Thread 0
+
+Main : Priority: 10
+
+Main : Old State: BLOCKED
 
 Main : New State: TERMINATED
 
