@@ -1,1 +1,2 @@
-# Ejercicios-de-clase-concu
+# Programación Concurrente
+## Ejercicios de Clase
